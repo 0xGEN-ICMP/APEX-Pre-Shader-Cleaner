@@ -45,6 +45,5 @@ As Linux community members, we want to make it as easy as possible for new users
   python3 ./steam-precache-cleaner.py
 ```
 
-Please note that the script may require "sudo" privileges to terminate the Steam process.
 
 - Start Steam and activate Shader Pre-Caching in the Settings again
