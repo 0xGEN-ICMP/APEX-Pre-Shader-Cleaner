@@ -37,10 +37,10 @@ def check_precaching_disabled(config_file_path):
         config_content = file.read()
 
     # Use regex to find the ShaderPreCaching setting
-    match = re.search(r'"ShaderPreCaching"\s*"(\d+)"', config_content)
+    match = re.search(r'"DisableShaderCache"\s*"(\d+)"', config_content)
     if match:
         value = match.group(1)
-        if value == "0":
+        if value == "1":
             print("Shader Pre-Caching is already disabled.")
             return True
         else:
