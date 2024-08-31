@@ -17,7 +17,7 @@ This script is not suited and tested on the non-steam APEX version
 
 #### Which Steam version has been tested?
 
-Currently just the normal .deb package - ~~ havent tested it with the flatpak version ~~
+Currently just the normal .deb package - ~~havent tested it with the flatpak version~~
 
 #### Can I use this script to delete other precached shader?
 
